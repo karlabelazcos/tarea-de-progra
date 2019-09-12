@@ -1,0 +1,8 @@
+n1 = float(input("Ingresa el primer numero: "))
+n2 = float(input("Ingresa el segundo numero "))
+
+if n1 > n2:
+    print("El numero mayor es el primer numero. Numero:",1)
+
+elif n2 > n1:
+    print("El numero mayor es el segundo numero, Numero:",n2)
