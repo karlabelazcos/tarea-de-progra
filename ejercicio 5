@@ -1,0 +1,10 @@
+print ("Las opciones son: 1, 2, 3")
+opcion=int(input("Introduce una opicion: "))
+
+if opcion == 1:
+    print ("Juego teminado")
+if opcion == 2:
+    print ("Este no es")
+if opcion == 3:
+    print ("Intentalo de nuevo")
+    
