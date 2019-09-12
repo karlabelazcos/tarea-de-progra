@@ -1,0 +1,7 @@
+def numero_al_azar(num1, num2):
+    interno1 = int(num1)
+    interno2 = int(num2)
+    
+import random
+
+print(random.randint(1 ,100 ))
