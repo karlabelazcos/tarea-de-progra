@@ -1,0 +1,16 @@
+print("verificar si una palabra es palindromo")
+
+palabra = input("ingresa una palabra: ")
+
+palabra = palabra.raplace(" "," ")
+
+if palabra.islower() == false:
+    palabra = palabra.lower()
+
+palabra_invertida = palabra[::-1]
+
+if palabra_invertida == palabra:
+    print("la palabra: "+str(palabra)+" es un palindromo.")
+
+    else:
+        print("la palabra: "+str(palabra=)+" no es palindromo")
